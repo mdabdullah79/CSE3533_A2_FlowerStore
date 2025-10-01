@@ -20,6 +20,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+
+    <!-- External CSS for FONT only! -->
     <link rel="stylesheet" href="style/style.css" />
   </head>
 
@@ -142,7 +144,7 @@
           <h1 class="text-[34px] md:text-[65px] noto-serif-font">
             ALWAYS <span class="text-orange-500">FRESH<br />FLOWERS</span>
           </h1>
-          <p class="banner-discription text-gray inter-font text-justify">
+          <p class="banner-discription text-gray inter-font text-justify font-light text-[18px] text-gray-500">
             Indulge your senses with the beauty and fragrance of <br />
             our fresh flower shop. From classic roses to exotic<br />
             blooms, we offer a wide variety of fresh flowers that<br />
@@ -229,7 +231,7 @@
           <h2 class="text-[56px] noto-serif-font">
             <span class="text-orange-500">Our</span> Plants
           </h2>
-          <p class="text-gray-400 inter-font font-thin">
+          <p class="inter-font font-light text-[18px] text-gray-500">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. <br />From classic roses to exotic blooms, we offer a
             wide variety of fresh.
@@ -484,7 +486,7 @@
       <!-- Contact Section -->
       <section id="Contact" class="w-11/12 mx-auto h-[600px] mt-24 mb-24">
         <h2 class="text-[50px] text-center mb-8 noto-serif-font">
-          We’d Love to Hear From You
+          We’d <span class="text-green-700 font-bold">Love</span> to Hear From You
         </h2>
         <div
           class="w-full mx-auto max-w-5xl bg-white rounded-2xl shadow-lg p-8 md:p-12"
@@ -583,27 +585,22 @@
         class="p-5 w-full h-auto mx-auto mt-40 flex flex-col md:flex-row items-center justify-center gap-4 mb-20"
       >
         <!-- Flower and Plants Lover Left Section -->
-        <div class="storeimg mr-0 md:mr-15 relative">
-          <img
-            src="assets/trusted-badge.png"
-            alt="Trusted Badge"
-            class="w-[286px] absolute left-[347px] bottom-[438px] hidden md:block"
-          />
+        <div class="storeimg mr-0 md:mr-15">
           <img
             src="assets/flower-store.png"
             alt="Flower store interior"
-            class=""
+            class="w-full md:auto"
           />
         </div>
 
         <!-- Flower and Plants Lover Right Section -->
         <div class="">
           <h2 class="text-[50px] noto-serif-font">
-            Flower & Plants<br />
+            Flower & <span class="text-green-700">Plants</span><br />
             Lover
           </h2>
           <ul
-            class="list-disc text-gray-500 flex flex-col gap-3 text-[22px] text-justify w-full md:w-[400px]"
+            class="list-disc text-gray-500 flex flex-col gap-3 text-[18px] text-justify w-full md:w-[400px]"
           >
             <li>
               Indulge your senses with the beauty and fragrance of our fresh
@@ -629,7 +626,7 @@
       <!-- Reviews Section -->
       <section id="Reviews" class="w-11/12 mx-auto p-8 m-7">
         <h2 class="text-center text-[40px] md:text-[50px] noto-serif-font mb-4">
-          What our users say
+          What <span class="text-green-700">our</span> users say <span class="text-green-700 font-bold">?</span>
         </h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -741,7 +738,7 @@
 
       <!-- Join Section -->
       <section id="Join"
-        class="text-center bg-[url('../assets/formimg.avif')] bg-cover bg-center bg-no-repeat h-[533px] w-full"
+        class="text-center bg-[url('/assets/formimg.avif')] bg-cover bg-center bg-no-repeat h-[533px] w-full"
       >
         <div
           class="bg-black/30 w-full h-full flex flex-col items-center justify-center"
