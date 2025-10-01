@@ -8,14 +8,14 @@
     <!-- Tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <!-- Dasiy UI -->
+    <!-- Daisy UI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
       type="text/css"
     />
 
-    <!-- Font Awsome -->
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -23,15 +23,14 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
 
-
   <body class="bg-[#f5f8ff]">
-    <!-- header -->
+    <!-- Header -->
     <header class="sticky top-0 bg-white shadow-sm z-50">
       <!-- Navbar -->
       <nav class="flex items-center justify-between w-11/12 mx-auto mb-20 p-2">
-        <!-- nav start -->
+        <!-- Nav Start -->
         <div class="flex flex-row items-center justify-center">
-          <!-- hambar for mobile -->
+          <!-- Hamburger for mobile -->
           <div class="block md:hidden">
             <div class="dropdown block md:hidden">
               <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -60,94 +59,89 @@
               </ul>
             </div>
           </div>
-          <!-- left logo -->
-          <img src="assets/logo.png" alt="" class="w-[80px] md:w-[100px]" />
+          <!-- Left Logo -->
+          <img
+            src="assets/logo.png"
+            alt="Flower Market Logo"
+            class="w-[80px] md:w-[100px]"
+          />
         </div>
 
-        <!-- nav middle -->
+        <!-- Nav Middle -->
         <div class="hidden md:block">
           <ul
             class="inter-font text-[16px] flex items-center justify-center gap-5"
           >
             <li>
-              <a href="#Home"
-                  class="relative text-[16px] font-bold
-                  before:content-[''] before:absolute before:-bottom-1 before:left-0 
-                  before:w-full before:h-[3px] before:bg-green-700 
-                  before:origin-left before:scale-x-0
-                  before:transition-transform before:duration-300 
-                  hover:before:scale-x-100 hover:text-green-700">
-                  Home
+              <a
+                href="#Home"
+                class="relative text-[16px] font-bold before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Home
               </a>
             </li>
 
             <li>
-              <a href="#Products"
-                  class="relative text-[16px] text-gray-500
-                  before:content-[''] before:absolute before:-bottom-1 before:left-0 
-                  before:w-full before:h-[3px] before:bg-green-700 
-                  before:origin-left before:scale-x-0
-                  before:transition-transform before:duration-300 
-                  hover:before:scale-x-100 hover:text-green-700">
-                  Products
+              <a
+                href="#Products"
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Products
               </a>
             </li>
-
 
             <li>
-              <a href="#Reviwes"
-                  class="relative text-[16px] text-gray-500
-                  before:content-[''] before:absolute before:-bottom-1 before:left-0 
-                  before:w-full before:h-[3px] before:bg-green-700 
-                  before:origin-left before:scale-x-0
-                  before:transition-transform before:duration-300 
-                  hover:before:scale-x-100 hover:text-green-700">
-                  Reviwes
+              <a
+                href="#Reviews"
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Reviews
               </a>
             </li>
 
-            <a href="#Contact"
-                  class="relative text-[16px] text-gray-500
-                  before:content-[''] before:absolute before:-bottom-1 before:left-0 
-                  before:w-full before:h-[3px] before:bg-green-700 
-                  before:origin-left before:scale-x-0
-                  before:transition-transform before:duration-300 
-                  hover:before:scale-x-100 hover:text-green-700">
-                  Contact
+            <li>
+              <a
+                href="#Contact"
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Contact
               </a>
             </li>
 
-            
-
-
-
-           
-            
+            <li>
+              <a
+                href="#Join"
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Join
+              </a>
+            </li>
           </ul>
         </div>
 
-        <!-- nav end -->
+        <!-- Nav End -->
         <div>
           <a href="" class="nav-link text-black flex items-center">
             <i class="fas fa-shopping-cart mr-2"></i>
-            <!-- icon on the left -->
+            <!-- Icon on the left -->
             <p>Cart($500)</p>
           </a>
         </div>
       </nav>
     </header>
 
-    <!-- main section -->
+    <!-- Main Section -->
     <main>
-      <!-- Banner section -->
-      <sectiion id="Home"
+      <!-- Banner Section -->
+      <section
+        id="Home"
         class="banner flex flex-col-reverse md:flex-row items-center justify-between w-11/12 mx-auto"
       >
-        <!--Banner Left Section  -->
+        <!-- Banner Left Section -->
         <div>
-          <h3 class="text-[34px] md:text-[65px] noto-serif-font">
+          <h1 class="text-[34px] md:text-[65px] noto-serif-font">
             ALWAYS <span class="text-orange-500">FRESH<br />FLOWERS</span>
-          </h3>
+          </h1>
           <p class="banner-discription text-gray inter-font text-justify">
             Indulge your senses with the beauty and fragrance of <br />
             our fresh flower shop. From classic roses to exotic<br />
@@ -156,286 +150,458 @@
           </p>
 
           <div class="flex items-center gap-5 mt-10">
-            <button class="border-green-700 border-1 bg-green-700 px-6 py-3 rounded-md text-white font-bold text-[20px] hover:bg-inherit hover:text-green-700 transition duration-300 ease-in-out">Shop Now
+            <button
+              class="border-green-700 border-1 bg-green-700 px-6 py-3 rounded-md text-white font-bold text-[20px] hover:bg-inherit hover:text-green-700 transition duration-300 ease-in-out"
+            >
+              Shop Now
               <i class="fa-solid fa-leaf"></i>
             </button>
-            <button class="border-green-700 border-1 px-6 py-3 rounded-md text-green-700 font-bold text-[20px] hover:bg-green-700 hover:text-white  transition duration-300 ease-in-out">Know More
+            <button
+              class="border-green-700 border-1 px-6 py-3 rounded-md text-green-700 font-bold text-[20px] hover:bg-green-700 hover:text-white transition duration-300 ease-in-out"
+            >
+              Know More
               <i class="fa-solid fa-leaf"></i>
             </button>
           </div>
         </div>
 
-        <!-- Right slding banner -->
+        <!-- Right Sliding Banner -->
         <div class="">
           <div class="carousel rounded-box w-full md:w-[600px]">
             <div class="carousel-item w-1/2">
-              <img src="assets/bannerimg1.avif" class="w-full" />
+              <img
+                src="assets/bannerimg1.avif"
+                class="w-full"
+                alt="Fresh flowers bouquet 1"
+              />
             </div>
 
-            <!-- sliding banner img -->
+            <!-- Sliding banner img -->
             <div class="carousel-item w-1/2">
               <img
                 src="assets/bannerimg2.avif"
                 class="w-full"
+                alt="Fresh flowers bouquet 2"
               />
             </div>
             <div class="carousel-item w-1/2">
               <img
                 src="assets/flower4.avif"
                 class="w-full"
+                alt="Lily blossoms"
               />
             </div>
             <div class="carousel-item w-1/2">
               <img
                 src="assets/flower3.avif"
                 class="w-full"
+                alt="Exotic blooms"
               />
             </div>
             <div class="carousel-item w-1/2">
               <img
                 src="assets/bannerimg1.avif"
                 class="w-full"
+                alt="Fresh flowers bouquet 1"
               />
             </div>
             <div class="carousel-item w-1/2">
               <img
                 src="assets/flower5.avif"
                 class="w-full"
+                alt="Colorful flowers"
               />
             </div>
             <div class="carousel-item w-1/2">
               <img
                 src="assets/bannerimg1.avif"
                 class="w-full"
+                alt="Fresh flowers bouquet 1"
               />
             </div>
           </div>
         </div>
-      </sectiion>
+      </section>
 
       <!-- Our Plants Section/Products -->
       <section id="Products" class="w-11/12 mx-auto mt-20">
         <div class="text-center">
-          <h3 class="text-[56px] noto-serif-font">
-            <spna class="text-orange-500">Our</spna> Plants
-          </h3>
+          <h2 class="text-[56px] noto-serif-font">
+            <span class="text-orange-500">Our</span> Plants
+          </h2>
           <p class="text-gray-400 inter-font font-thin">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. <br />From classic roses to exotic blooms, we offer a
             wide variety of fresh.
           </p>
         </div>
-        <div class="inter-font p-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <!-- flower type -->
-
-          <!-- type1 -->
-          <div class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out">
+        <div class="mt-10 inter-font p-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Flower Type 1 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
               class="w-full h-[400px] rounded-t-xl"
               src="assets/flower1.avif"
-              alt=""
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nam? Lorem ipsum.</p>
-              
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
               class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-          
-          <!-- type2 -->
-          <div class="flex flex-col items-center justify-center shadow-md">
+          <!-- Flower Type 2 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
+              class="w-full h-[400px] rounded-t-xl"
               src="assets/flower2.avif"
-              alt=""
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-          <!-- type3 -->
-          <div class="flex flex-col items-center justify-center shadow-md">
+          <!-- Flower Type 3 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
+              class="w-full h-[400px] rounded-t-xl"
               src="assets/flower3.avif"
-              alt=""
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-          <!-- type4 -->
-          <div class="flex flex-col items-center justify-center shadow-md">
+          <!-- Flower Type 4 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
+              class="w-full h-[400px] rounded-t-xl"
               src="assets/flower4.avif"
-              alt=""
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-        
-          <!-- type5 -->
-          <div class="flex flex-col items-center justify-center shadow-md">
+          <!-- Flower Type 5 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
+              class="w-full h-[400px] rounded-t-xl"
               src="assets/flower5.avif"
-              alt=""
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-
-          <!-- type6 -->
-          <div class="flex flex-col items-center justify-center shadow-md">
+          <!-- Flower Type 6 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
-              src="assets/flower1.avif"
-              alt=""
+              class="w-full h-[400px] rounded-t-xl"
+              src="assets/flower6.avif"
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-          <!-- type7 -->
-          <div class="flex flex-col items-center justify-center shadow-md ">
+          <!-- Flower Type 7 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
-              src="assets/flower1.avif"
-              alt=""
+              class="w-full h-[400px] rounded-t-xl"
+              src="assets/bannerimg1.avif"
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-          <!-- type8 -->
-          <div class="flex flex-col items-center justify-center shadow-md">
+          <!-- Flower Type 8 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
-              src="assets/flower1.avif"
-              alt=""
+              class="w-full h-[400px] rounded-t-xl"
+              src="assets/bannerimg2.avif"
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
+          </article>
 
-
-          <!-- type9 -->
-          <div class="flex flex-col items-center justify-center shadow-md">
+          <!-- Flower Type 9 -->
+          <article
+            class="flex flex-col items-center justify-center shadow-md hover:shadow-2xl hover:scale-102 transition duration-500 ease-in-out"
+          >
             <img
-              class="w-full h-[400px]"
-              src="assets/flower1.avif"
-              alt=""
+              class="w-full h-[400px] rounded-t-xl"
+              src="assets/bannerimg3.avif"
+              alt="Lily Blossom flower"
             />
             <div class="text-center p-3">
-              <p class="text-[24px] font-bold">Lily Blossom</p>
-              <p class="text-gray-500 text-[16px] text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, recusandae.</p>
+              <h3 class="text-[24px] font-bold">Lily Blossom</h3>
+              <p class="text-gray-500 text-[16px] text-justify mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, nam? Lorem ipsum.
+              </p>
+
               <p class="text-[25px] font-bold">20 USD</p>
             </div>
-            
+
             <button
-              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out"
+              class="bg-[#E95A08] w-full h-10 text-white hover:bg-black hover:font-bold transition duration-500 ease-in-out"
             >
               ADD TO CART
             </button>
-          </div>
-          
+          </article>
         </div>
       </section>
 
-      <!-- Flower and Plants lover Section -->
+      <!-- Contact Section -->
+      <section id="Contact" class="w-11/12 mx-auto h-[600px] mt-24 mb-24">
+        <h2 class="text-[50px] text-center mb-8 noto-serif-font">
+          We’d Love to Hear From You
+        </h2>
+        <div
+          class="w-full mx-auto max-w-5xl bg-white rounded-2xl shadow-lg p-8 md:p-12"
+        >
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Left | Contact Info -->
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-6">
+                Contact Information
+              </h3>
+              <ul class="space-y-4 text-gray-700">
+                <li>
+                  <span class="font-semibold">Address:</span><br />
+                  123 Main Street, Dhaka, Bangladesh
+                </li>
+                <li>
+                  <span class="font-semibold">Email:</span><br />
+                  <a
+                    href="mailto:info@example.com"
+                    class="text-green-700 hover:underline"
+                  >
+                    info@example.com
+                  </a>
+                </li>
+                <li>
+                  <span class="font-semibold">Phone:</span><br />
+                  <a
+                    href="tel:+880123456789"
+                    class="text-green-700 hover:underline"
+                  >
+                    +880 123 456 789
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Right | Form -->
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-6">
+                Send Us a Message
+              </h3>
+              <form class="space-y-4">
+                <div>
+                  <label
+                    for="name"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-green-600 outline-none"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="email"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-green-600 outline-none"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="message"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Message</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-green-600 outline-none"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="w-full bg-green-700 text-white font-semibold py-2 px-4 rounded-lg hover:bg-black transition-colors"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Flower and Plants Lover Section -->
       <section
-        class=" p-5  w-full h-auto mx-auto mt-40 flex flex-col md:flex-row items-center justify-center gap-4 mb-20"
+        class="p-5 w-full h-auto mx-auto mt-40 flex flex-col md:flex-row items-center justify-center gap-4 mb-20"
       >
-        <!-- Flower and Plants lover Left Setion -->
+        <!-- Flower and Plants Lover Left Section -->
         <div class="storeimg mr-0 md:mr-15 relative">
           <img
             src="assets/trusted-badge.png"
-            alt=""
+            alt="Trusted Badge"
             class="w-[286px] absolute left-[347px] bottom-[438px] hidden md:block"
           />
-          <img src="assets/flower-store.png" alt="" class="" />
+          <img
+            src="assets/flower-store.png"
+            alt="Flower store interior"
+            class=""
+          />
         </div>
 
-        <!-- Flower and Plants lover Right Section -->
+        <!-- Flower and Plants Lover Right Section -->
         <div class="">
-          <h3 class="text-[50px] noto-serif-font">
+          <h2 class="text-[50px] noto-serif-font">
             Flower & Plants<br />
             Lover
-          </h3>
+          </h2>
           <ul
             class="list-disc text-gray-500 flex flex-col gap-3 text-[22px] text-justify w-full md:w-[400px]"
           >
@@ -460,185 +626,268 @@
         </div>
       </section>
 
+      <!-- Reviews Section -->
+      <section id="Reviews" class="w-11/12 mx-auto p-8 m-7">
+        <h2 class="text-center text-[40px] md:text-[50px] noto-serif-font mb-4">
+          What our users say
+        </h2>
 
-      <!-- Reviwew Section -->
-      <section id="Reviwes" class="w-11/12 mx-auto p-8  m-7 ">
-        <h1 class="text-center text-[40px] md:text-[50px] noto-serif-font mb-4">What our users say</h1>
-
-       <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-        <!-- Reviwer -->
-         <div class="bg-white shadow-md container py-5 px-10 rounded-2xl hover:scale-103 transiction duration-300 ease-in-out">
-          <!-- star -->
-          <div class="text-yellow-500 mb-4">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <!-- title and discription -->
-          <div class="mb-4">
-            <h3 class="text-[22px] mb-2 font-bold">Loved by Designers</h3>
-            <p class="text-justify text-[16px] text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur eligendi vero dolor eius error corporis labore laborum
-              provident dolorem odit.
-            </p>
-          </div>
-          <!-- reviwer deatail -->
-          <div class="flex items-center justify-start">
-            <img
-              src="assets/reviwer.png"
-              class="w-12 h-12 rounded-full mr-2"
-            />
-            <div>
-              <p>Reviewer name</p>
-              <p class="text-gray-400">Date</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <!-- Reviewer 1 -->
+          <article
+            class="bg-white shadow-md container py-5 px-10 rounded-2xl hover:scale-103 transition duration-300 ease-in-out"
+          >
+            <!-- Stars -->
+            <div class="text-yellow-500 mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
             </div>
-          </div>
-        </div>
-
-
-        <!-- Reviwer -->
-         <div class="bg-white shadow-md container py-5 px-10 rounded-2xl hover:scale-103 transiction duration-300 ease-in-out">
-          <!-- star -->
-          <div class="text-yellow-500 mb-4">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <!-- title and discription -->
-          <div class="mb-4">
-            <h3 class="text-[22px] mb-2 font-bold">Loved by Designers</h3>
-            <p class="text-justify text-[16px] text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur eligendi vero dolor eius error corporis labore laborum
-              provident dolorem odit.
-            </p>
-          </div>
-          <!-- reviwer deatail -->
-          <div class="flex items-center justify-start">
-            <img
-              src="assets/reviwer.png"
-              class="w-12 h-12 rounded-full mr-2"
-            />
-            <div>
-              <p>Reviewer name</p>
-              <p class="text-gray-400">Date</p>
+            <!-- Title and Description -->
+            <div class="mb-4">
+              <h3 class="text-[22px] mb-2 font-bold">Loved by Designers</h3>
+              <p class="text-justify text-[16px] text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur eligendi vero dolor eius error corporis labore
+                laborum provident dolorem odit.
+              </p>
             </div>
-          </div>
-        </div>
-
-
-          <!-- Reviwer -->
-         <div class="bg-white shadow-md container py-5 px-10 rounded-2xl hover:scale-103 transiction duration-300 ease-in-out">
-          <!-- star -->
-          <div class="text-yellow-500 mb-4">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <!-- title and discription -->
-          <div class="mb-4">
-            <h3 class="text-[22px] mb-2 font-bold">Loved by Designers</h3>
-            <p class="text-justify text-[16px] text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur eligendi vero dolor eius error corporis labore laborum
-              provident dolorem odit.
-            </p>
-          </div>
-          <!-- reviwer deatail -->
-          <div class="flex items-center justify-start">
-            <img
-              src="assets/reviwer.png"
-              class="w-12 h-12 rounded-full mr-2"
-            />
-            <div>
-              <p>Reviewer name</p>
-              <p class="text-gray-400">Date</p>
+            <!-- Reviewer Detail -->
+            <div class="flex items-center justify-start">
+              <img
+                src="assets/reviwer.png"
+                class="w-12 h-12 rounded-full mr-2"
+                alt="Reviewer avatar"
+              />
+              <div>
+                <p>Reviewer name</p>
+                <p class="text-gray-400">Date</p>
+              </div>
             </div>
-          </div>
+          </article>
+
+          <!-- Reviewer 2 -->
+          <article
+            class="bg-white shadow-md container py-5 px-10 rounded-2xl hover:scale-103 transition duration-300 ease-in-out"
+          >
+            <!-- Stars -->
+            <div class="text-yellow-500 mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <!-- Title and Description -->
+            <div class="mb-4">
+              <h3 class="text-[22px] mb-2 font-bold">Loved by Designers</h3>
+              <p class="text-justify text-[16px] text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur eligendi vero dolor eius error corporis labore
+                laborum provident dolorem odit.
+              </p>
+            </div>
+            <!-- Reviewer Detail -->
+            <div class="flex items-center justify-start">
+              <img
+                src="assets/reviwer.png"
+                class="w-12 h-12 rounded-full mr-2"
+                alt="Reviewer avatar"
+              />
+              <div>
+                <p>Reviewer name</p>
+                <p class="text-gray-400">Date</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reviewer 3 -->
+          <article
+            class="bg-white shadow-md container py-5 px-10 rounded-2xl hover:scale-103 transition duration-300 ease-in-out"
+          >
+            <!-- Stars -->
+            <div class="text-yellow-500 mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <!-- Title and Description -->
+            <div class="mb-4">
+              <h3 class="text-[22px] mb-2 font-bold">Loved by Designers</h3>
+              <p class="text-justify text-[16px] text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur eligendi vero dolor eius error corporis labore
+                laborum provident dolorem odit.
+              </p>
+            </div>
+            <!-- Reviewer Detail -->
+            <div class="flex items-center justify-start">
+              <img
+                src="assets/reviwer.png"
+                class="w-12 h-12 rounded-full mr-2"
+                alt="Reviewer avatar"
+              />
+              <div>
+                <p>Reviewer name</p>
+                <p class="text-gray-400">Date</p>
+              </div>
+            </div>
+          </article>
         </div>
-       </div>
       </section>
 
-
-
-      <section
-        class=" text-center bg-[url('../assets/formimg.avif')] bg-cover bg-center bg-no-repeat h-[533px] w-full"
+      <!-- Join Section -->
+      <section id="Join"
+        class="text-center bg-[url('../assets/formimg.avif')] bg-cover bg-center bg-no-repeat h-[533px] w-full"
       >
-      <div class="bg-black/30 w-full h-full flex flex-col items-center justify-center">
-        <div class="join-title">
-          <h3 class="text-[50px] text-white mb-6">Join The <span class="text-green-500">Colorful Bunch</h3>
-        </div>
-        <div class="email-button flex flex-col items-center justify-center gap-4 container">
-          <input
-            type="email"
-            name=""
-            id=""
-            placeholder="Write Email"
-            class="bg-white h-10 p-3 border-none w-1/2 rounded-md"
-          />
+        <div
+          class="bg-black/30 w-full h-full flex flex-col items-center justify-center"
+        >
+          <div class="join-title">
+            <h2 class="text-[50px] text-white mb-6">
+              Join The <span class="text-green-500">Colorful Bunch</span>
+            </h2>
+          </div>
+          <div
+            class="email-button flex flex-col items-center justify-center gap-4 container"
+          >
+            <input
+              type="email"
+              name="email"
+              id="subscribe-email"
+              placeholder="Write Email"
+              class="bg-white h-10 p-3 border-none w-1/2 rounded-md"
+              aria-label="Email address for subscription"
+            />
             <button
-              class="bg-[#E95A08] p-6 rounded-lg  h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out flex items-center"
-            >Subscribe
+              class="bg-[#E95A08] p-6 rounded-lg h-10 text-white hover:bg-black hover:scale-101 transition duration-500 ease-in-out flex items-center"
+            >
+              Subscribe
             </button>
+          </div>
         </div>
-      </div>
-        
       </section>
     </main>
 
     <!-- Footer Section -->
-    <footer class="p-4 md:py-12 md:px-40">
+    <footer class="p-4 md:py-12 md:px-40 bg-gray-100">
       <div class="flex flex-col md:flex-row items-start justify-between">
         <div class="">
-        <img src="assets/logo.png" alt="">
-        <p class="mt-5 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, praesentium.</p>
-      </div>
+          <img src="assets/logo.png" alt="Flower Market Logo" />
+          <p class="mt-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            praesentium.
+          </p>
+        </div>
 
-      <div>
-        <ul class="flex flex-col gap-8 text-gray-500 ">
-          <li class="hover:text-green-700 hover:underline hover:scale-105 transition duration-500 ease-in-out">
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">About Us</a>
-          </li>
-          <li>
-            <a href="">Blog</a>
-          </li>
-          <li>
-            <a href="">FAQ</a>
-          </li>
-          <li>
-            <a href="">Contact Us</a>
-          </li>
-        </ul>
-      </div>
+        <nav>
+          <ul class="flex flex-col gap-8 text-gray-500">
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </nav>
 
+        <nav>
+          <ul class="flex flex-col gap-8 text-gray-500">
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Features
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Terms of Service
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+              >
+                Support
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-      <div>
-        <ul class="flex flex-col gap-8 text-gray-500">
-          <li><a href=""></a>Features</li>
-          <li><a href=""></a>Pricing</li>
-          <li><a href=""></a>Privacy Policy</li>
-          <li><a href="">Terms of Service</a></li>
-          <li><a href=""></a>Terms of Service</li>
-        </ul>
+        <div class="flex items-center gap-6">
+          <a href="" class="hover:text-green-700 transition duration-300">
+            <img src="assets/icon-linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="" class="hover:text-green-700 transition duration-300">
+            <img src="assets/icon-twitter.png" alt="Twitter" />
+          </a>
+          <a href="" class="hover:text-green-700 transition duration-300">
+            <img src="assets/icon-facebook.png" alt="Facebook" />
+          </a>
+          <a href="" class="hover:text-green-700 transition duration-300">
+            <img src="assets/icon-youtube.png" alt="YouTube" />
+          </a>
+        </div>
       </div>
-
-      <div class="flex items-center gap-6">
-        <img src="assets/icon-linkedin.png" alt="">
-        <img src="assets/icon-twitter.png" alt="">
-        <img src="assets/icon-facebook.png" alt="">
-        <img src="assets/icon-youtube.png" alt="">
-      </div>
-      </div>
-      
     </footer>
   </body>
 </html>
