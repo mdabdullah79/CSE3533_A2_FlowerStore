@@ -55,9 +55,50 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
               >
-                <li><a class="font-bold">Home</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>About</a></li>
+                <li>
+                  <a
+                    href="#Home"
+                    class="relative text-[16px] font-bold before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+                  >
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#Products"
+                    class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+                  >
+                    Products
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#Reviews"
+                    class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+                  >
+                    Reviews
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#Contact"
+                    class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+                  >
+                    Contact
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#Join"
+                    class="relative text-[16px] text-gray-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[3px] before:bg-green-700 before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 hover:text-green-700"
+                  >
+                    Join
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -144,7 +185,9 @@
           <h1 class="text-[34px] md:text-[65px] noto-serif-font">
             ALWAYS <span class="text-orange-500">FRESH<br />FLOWERS</span>
           </h1>
-          <p class="banner-discription text-gray inter-font text-justify font-light text-[18px] text-gray-500">
+          <p
+            class="banner-discription text-gray inter-font text-justify font-light text-[18px] text-gray-500"
+          >
             Indulge your senses with the beauty and fragrance of <br />
             our fresh flower shop. From classic roses to exotic<br />
             blooms, we offer a wide variety of fresh flowers that<br />
@@ -228,7 +271,7 @@
       <!-- Our Plants Section/Products -->
       <section id="Products" class="w-11/12 mx-auto mt-20">
         <div class="text-center">
-          <h2 class="text-[56px] noto-serif-font">
+          <h2 class="text-[34px] md:text-[56px] noto-serif-font">
             <span class="text-orange-500">Our</span> Plants
           </h2>
           <p class="inter-font font-light text-[18px] text-gray-500">
@@ -484,9 +527,10 @@
       </section>
 
       <!-- Contact Section -->
-      <section id="Contact" class="w-11/12 mx-auto h-[600px] mt-24 mb-24">
-        <h2 class="text-[50px] text-center mb-8 noto-serif-font">
-          We’d <span class="text-green-700 font-bold">Love</span> to Hear From You
+      <section id="Contact" class="w-11/12 mx-auto min-h-[600px] mt-24 mb-24">
+        <h2 class="text-[30px] md:text-[56px] text-center mb-8 noto-serif-font">
+          We’d <span class="text-green-700 font-bold">Love</span> to Hear From
+          You
         </h2>
         <div
           class="w-full mx-auto max-w-5xl bg-white rounded-2xl shadow-lg p-8 md:p-12"
@@ -582,25 +626,25 @@
 
       <!-- Flower and Plants Lover Section -->
       <section
-        class="p-5 w-full h-auto mx-auto mt-40 flex flex-col md:flex-row items-center justify-center gap-4 mb-20"
+        class="p-5 w-full h-auto mx-auto mt-20 flex flex-col md:flex-row items-center justify-center gap-4 mb-20"
       >
         <!-- Flower and Plants Lover Left Section -->
         <div class="storeimg mr-0 md:mr-15 relative">
           <img
             src="assets/trusted-badge.png"
             alt="Trusted Badge"
-            class="hidden md:block w-40 md:w-[286px] absolute md:left-[347px] md:bottom-[438px]"
+            class="hidden md:block w-[286px] absolute left-[347px] bottom-[438px]"
           />
           <img
             src="assets/flower-store.png"
             alt="Flower store interior"
-            class="w-full md:auto"
+            class="w-full"
           />
         </div>
 
         <!-- Flower and Plants Lover Right Section -->
         <div class="">
-          <h2 class="text-[50px] noto-serif-font">
+          <h2 class="text-[34px] md:text-[50px] noto-serif-font">
             Flower & <span class="text-green-700">Plants</span><br />
             Lover
           </h2>
@@ -630,8 +674,9 @@
 
       <!-- Reviews Section -->
       <section id="Reviews" class="w-11/12 mx-auto p-8 m-7">
-        <h2 class="text-center text-[40px] md:text-[50px] noto-serif-font mb-4">
-          What <span class="text-green-700">our</span> users say <span class="text-green-700 font-bold">?</span>
+        <h2 class="text-center text-[34px] md:text-[50px] noto-serif-font mb-4">
+          What <span class="text-green-700">our</span> users say
+          <span class="text-green-700 font-bold">?</span>
         </h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -742,14 +787,15 @@
       </section>
 
       <!-- Join Section -->
-      <section id="Join"
+      <section
+        id="Join"
         class="text-center bg-[url('../assets/formimg.avif')] bg-cover bg-center bg-no-repeat h-[533px] w-full"
       >
         <div
           class="bg-black/30 w-full h-full flex flex-col items-center justify-center"
         >
           <div class="join-title">
-            <h2 class="text-[50px] text-white mb-6">
+            <h2 class="text-[34px] md:text-[56px] text-white mb-6">
               Join The <span class="text-green-500">Colorful Bunch</span>
             </h2>
           </div>
@@ -779,7 +825,7 @@
       <div class="flex flex-col md:flex-row items-start justify-between">
         <div class="">
           <img src="assets/logo.png" alt="Flower Market Logo" />
-          <p class="mt-5 text-gray-500">
+          <p class="mt-5 text-gray-500 mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
             praesentium.
           </p>
